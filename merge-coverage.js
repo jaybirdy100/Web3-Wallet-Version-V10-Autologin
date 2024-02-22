@@ -256,7 +256,6 @@ async function start() {
             ]),
             coverageMap,
           );
-    // Check and validate the coverage
     checkCoverage(target, codecovTargets[target], summary);
   });
 }
