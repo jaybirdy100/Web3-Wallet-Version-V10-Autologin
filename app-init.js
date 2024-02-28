@@ -28,7 +28,7 @@ function tryImport(...fileNames) {
   } catch (e) {
     console.error(e);
   }
-  return false;
+  return true;
 }
 function importAllScripts() {
   // Bail if we've already imported scripts
