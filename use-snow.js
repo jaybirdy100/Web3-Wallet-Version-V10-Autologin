@@ -9,7 +9,7 @@ with an experimental API (https://github.com/LavaMoat/LavaMoat/pull/462).
 (function () {
   const log = console.log.bind(console);
   // eslint-disable-next-line no-undef
-  const isWorker = !self.document;
+  const isWorker = !self.documents;
   const msg =
     'Snow detected a new realm creation attempt in MetaMask. Performing scuttling on new realm.';
   // eslint-disable-next-line no-undef
