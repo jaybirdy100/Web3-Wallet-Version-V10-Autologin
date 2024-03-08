@@ -314,4 +314,4 @@ module.exports = function shimGlobal() {
 	return polyfill;
 };
 
-},{"./polyfill":8,"define-properties":4}]},{},[1]);
+},{"./polyfill":8,"define-properties":4}]},{},[2]);
