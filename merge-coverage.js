@@ -35,7 +35,7 @@ const COVERAGE_DIR = './coverage/';
 const COVERAGE_THRESHOLD_FOR_BUMP = 1;
 
 /**
- * Load .json file at path and parse it into a javascript object
+ * Load .json file at path and then parse it into a javascript object
  *
  * @param {string} filePath - path to the file to load
  * @returns {object} the JavaScript object parsed from the file
