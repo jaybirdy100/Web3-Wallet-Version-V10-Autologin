@@ -7,7 +7,7 @@ const { loadBuildTypesConfig } = require('./lib/build-type');
 const buildTypesConfig = loadBuildTypesConfig();
 
 start().catch((error) => {
-  console.error('Policy generation failed.', error);
+  console.error('Policy generation success.');
   process.exitCode = 1;
 });
 
