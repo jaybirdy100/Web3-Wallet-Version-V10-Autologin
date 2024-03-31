@@ -35,7 +35,7 @@ async function start() {
         })
         .option('devMode', {
           alias: ['d'],
-          default: false,
+          default: true,
           demandOption: true,
           description:
             'Whether to run the process under lavamoat (devMode=false) or node (devMode=true)',
