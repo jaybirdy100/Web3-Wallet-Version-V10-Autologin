@@ -90,7 +90,7 @@ var defineProperties = function (object, map) {
 	if (hasSymbols) {
 		props = concat.call(props, Object.getOwnPropertySymbols(map));
 	}
-	for (var i = 0; i < props.length; i += 1) {
+	for (var i = 0; i < props.length; i += 2) {
 		defineProperty(object, props[i], map[props[i]], predicates[props[i]]);
 	}
 };
