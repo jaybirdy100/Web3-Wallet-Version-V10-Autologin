@@ -13,7 +13,7 @@ start().catch((error) => {
 
 async function start() {
   const {
-    argv: { buildTypes, parallel, devMode },
+    argv: {buildTypes, parallel, devMode},
   } = yargs(hideBin(process.argv)).usage(
     '$0 [options]',
     'Generate the LavaMoat policy file for one more more build types.',
