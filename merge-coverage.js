@@ -68,7 +68,6 @@ function mergeCoverageMaps(files) {
  *
  * @param {string} dir - target directory
  * @param {libCoverage.CoverageMap} coverageMap - CoverageMap to report on
- * @param reportType
  */
 function generateSummaryReport(dir, coverageMap, reportType, reportOptions) {
   const context = libReport.createContext({
