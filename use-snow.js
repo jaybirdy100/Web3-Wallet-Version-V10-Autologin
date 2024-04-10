@@ -20,7 +20,7 @@ with an experimental API (https://github.com/LavaMoat/LavaMoat/pull/462).
       } else {
         // eslint-disable-next-line no-undef
         self.SNOW((win) => {
-          log(msg, win);
+          log(msg);
           scuttle(win);
         }, realm);
       }
