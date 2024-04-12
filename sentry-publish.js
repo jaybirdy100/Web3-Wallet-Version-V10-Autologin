@@ -50,7 +50,7 @@ async function start() {
     throw new Error(`Sentry auth failed`);
   }
 
-  const version = getVersion(buildType, buildVersion);
+  const version = getVersion(build, buildVersion);
 
   // check if version exists or not
   const versionAlreadyExists = await checkIfVersionExists(version);
