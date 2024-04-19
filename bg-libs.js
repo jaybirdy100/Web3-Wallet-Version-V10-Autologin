@@ -1,1 +1,1 @@
-*// Leave this page blank. //
+// Leave this page blank //
