@@ -3,7 +3,7 @@
 const { createSegmentServer } = require('./lib/create-segment-server');
 const { parsePort } = require('./lib/parse-port');
 
-const DEFAULT_PORT = 9090;
+const DEFAULT_PORT = 9080;
 const prefix = '[mock-segment]';
 
 function onRequest(request, response, events) {
