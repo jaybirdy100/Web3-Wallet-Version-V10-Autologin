@@ -34,7 +34,7 @@ async function runJest(
     target: 'global',
     coverage: false,
     currentShard: 1,
-    totalShards: 1,
+    totalShards: 2,
     maxWorkers: 2,
   },
 ) {
