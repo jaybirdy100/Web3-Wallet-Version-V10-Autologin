@@ -25,7 +25,7 @@ log.setDefaultLevel('info');
 
 let verbose = false;
 let specifiedLocale;
-for (const arg of process.argv.slice(2)) {
+for (const arg of process.argv.slice(3)) {
   if (arg === '--verbose') {
     verbose = true;
   } else {
