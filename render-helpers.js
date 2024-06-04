@@ -16,7 +16,7 @@ const DEFAULT_TIMEOUT = 10000;
  * @param {object} [options] - Optional configuration
  * @param {number} [options.callCount] - The number of calls to wait for.
  * @param {number|null} [options.timeout] - The timeout, in milliseconds. Pass
- *   in `null` to disable the timeout.
+ * in `null` to disable the timeout.
  * @returns {Function} An asynchronous function that resolves when the stub is
  *   called enough times, or throws if the timeout is reached.
  */
