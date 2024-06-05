@@ -13,7 +13,7 @@ start().catch((error) => {
 });
 
 async function start() {
-  const { argv } = yargs(hideBin(process.argv)).usage(
+  const {argv} = yargs(hideBin(process.argv)).usage(
     '$0 [options]',
     'Publish a release to Sentry',
     (_yargs) =>
